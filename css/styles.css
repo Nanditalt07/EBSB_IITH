@@ -847,9 +847,19 @@ h4{
   .menu-item-description {
     text-align: center;;
   }
+
   #Heading{
-    
-    }
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .navbar-header button.navbar-toggle {
+   clear: both;
+   margin-top: -7%;
+ }
+ #logo-img{
+   padding-left: 10px;
+   padding-top: 3px;
+ }
 
     .carousel-caption {
       left: 9%;
@@ -859,7 +869,6 @@ h4{
       font-weight: bold;
     }
 
-  #logo-img{display:none;}
 
   #EventsTop{
     font-size: 2.5em;
@@ -934,16 +943,21 @@ h4{
     width: 50%;
   }
 
-  #Heading{display:none;}
-  #logo-img{display: inline;}
+  /*#Heading{display:none;}*/
+  #logo-img{display: none;}
 
   #logo-img{
     padding-left: 15%;
   }
 
-  .navbar-header button.navbar-toggle{
-    margin-top: -15%;
-  }
+ #Heading{
+   padding-left: 10px;
+   padding-top: 7px;
+ }
+ .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 7%;
+}
   
   #Modi{
     padding-top: 10%;
